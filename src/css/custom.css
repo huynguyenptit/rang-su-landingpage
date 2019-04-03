@@ -1,12 +1,12 @@
 /* default */
 .dark .light , .light  , .dark .light  , .light  {
-    font-family: 'Muli';
+    /*font-family: 'Muli';*/
     font-size: 15px;
     line-height: 1.5;
     color: #333333;
 }
 .light .dark , .dark  , .light .dark  , .dark  {
-    font-family: 'OpenSans';
+
     font-size: 14px;
     line-height: 1.5;
     color: #ffffff;
@@ -28,56 +28,56 @@ section.dark, footer.dark, header.dark {
     background-color: #232122;
 }
 .dark h1.light, .light h1, .dark .light h1, h1.light {
-    font-family: 'Montserrat';
+    /*font-family: 'Montserrat';*/
     font-size: 100px;
     font-weight: 900;
     font-style: normal;
     color: #222;
 }
 .light h1.dark, .dark h1, .light .dark h1, h1.dark {
-    font-family: 'Montserrat';
+    /*font-family: 'Montserrat';*/
     font-size: 100px;
     font-weight: 200;
     font-style: normal;
     color: #fff;
 }
 .dark h2.light, .light h2, .dark .light h2, h2.light {
-    font-family: 'Montserrat';
+    /*font-family: 'Montserrat';*/
     font-size: 50px;
     font-weight: 300;
     font-style: normal;
     color: #222;
 }
 .light h2.dark, .dark h2, .light .dark h2, h2.dark {
-    font-family: 'Montserrat';
+    /*font-family: 'Montserrat';*/
     font-size: 50px;
     font-weight: 300;
     font-style: normal;
     color: #fff;
 }
 .dark h3.light, .light h3, .dark .light h3, h3.light {
-    font-family: 'Montserrat';
-    font-size: 35px;
+    /*font-family: 'Montserrat';*/
+    font-size: 25px;
     font-weight: 300;
     font-style: normal;
-    color: #333333;
+    color: #01aef0;
 }
 .light h3.dark, .dark h3, .light .dark h3, h3.dark {
-    font-family: 'Montserrat';
+    /*font-family: 'Montserrat';*/
     font-size: 35px;
     font-weight: 300;
     font-style: normal;
     color: #fff;
 }
 .dark h4.light, .light h4, .dark .light h4, h4.light {
-    font-family: 'Muli';
+    /*font-family: 'Muli';*/
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
     color: #333333;
 }
 .light h4.dark, .dark h4, .light .dark h4, h4.dark {
-    font-family: 'Muli';
+    /*font-family: 'Muli';*/
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
@@ -101,7 +101,8 @@ section.dark, footer.dark, header.dark {
     background-color: rgba(255,255,255,0);
 }
 .light .navbar-nav.dark a, .dark .navbar-nav a, .light .dark .navbar-nav a, .navbar-nav.dark a {
-    font-size: 17px;
+    font-size: 0.8rem;
+    font-weight: bold;
     color: #01aef0;
     text-decoration: none;
     background-color: rgba(255,255,255,0);
@@ -112,7 +113,7 @@ section.dark, footer.dark, header.dark {
     background-color: rgba(255,255,255,0);
 }
 .light .navbar-nav.dark a.nav-link:hover, .dark .navbar-nav a.nav-link:hover, .light .dark .navbar-nav a.nav-link:hover, .navbar-nav.dark a.nav-link:hover, .light .navbar-nav.dark .nav-item:hover > a.nav-link, .dark .navbar-nav .nav-item:hover > a.nav-link, .light .dark .navbar-nav .nav-item:hover > a.nav-link, .navbar-nav.dark .nav-item:hover > a.nav-link, .light .navbar-nav.dark a.nav-link.active, .dark .navbar-nav a.nav-link.active, .light .dark .navbar-nav a.nav-link.active, .navbar-nav.dark a.nav-link.active {
-    color: #eeeeee;
+    color: #01aef0;
     text-decoration: none;
     background-color: rgba(255,255,255,0);
 }
@@ -160,7 +161,7 @@ section.dark, footer.dark, header.dark {
 }
 .dark .btn-primary.light, .light .btn-primary, .dark .light .btn-primary, .btn-primary.light, .dark .badge-primary.light, .light .badge-primary, .dark .light .badge-primary, .badge-primary.light {
     color: #FFF;
-    background-color: #ee2a7b;
+    background-color: #01aef0;
 }
 .light .btn-primary.dark, .dark .btn-primary, .light .dark .btn-primary, .btn-primary.dark, .light .badge-primary.dark, .dark .badge-primary, .light .dark .badge-primary, .badge-primary.dark {
     color: #FFF;
@@ -193,7 +194,7 @@ section.dark, footer.dark, header.dark {
     border-color: #AF9F8C;
 }
 .dark .btn-primary.light:hover, .light .btn-primary:hover, .dark .light .btn-primary:hover, .btn-primary.light:hover, .dark .btn-primary.light:active, .light .btn-primary:active, .dark .light .btn-primary:active, .btn-primary.light:active, .dark .btn-primary.active.light, .light .btn-primary.active, .dark .light .btn-primary.active, .btn-primary.active.light, .dark .btn-outline-primary.light:hover, .light .btn-outline-primary:hover, .dark .light .btn-outline-primary:hover, .btn-outline-primary.light:hover, .dark .btn-outline-primary.light:active, .light .btn-outline-primary:active, .dark .light .btn-outline-primary:active, .btn-outline-primary.light:active, .dark .btn-outline-primary.active.light, .light .btn-outline-primary.active, .dark .light .btn-outline-primary.active, .btn-outline-primary.active.light {
-    border-color: rgba(238, 42, 123, 0.9);
+    border-color: #0070f0;
 }
 .light .btn-primary.dark:hover, .dark .btn-primary:hover, .light .dark .btn-primary:hover, .btn-primary.dark:hover, .light .btn-primary.dark:active, .dark .btn-primary:active, .light .dark .btn-primary:active, .btn-primary.dark:active, .light .btn-primary.active.dark, .dark .btn-primary.active, .light .dark .btn-primary.active, .btn-primary.active.dark, .light .btn-outline-primary.dark:hover, .dark .btn-outline-primary:hover, .light .dark .btn-outline-primary:hover, .btn-outline-primary.dark:hover, .light .btn-outline-primary.dark:active, .dark .btn-outline-primary:active, .light .dark .btn-outline-primary:active, .btn-outline-primary.dark:active, .light .btn-outline-primary.active.dark, .dark .btn-outline-primary.active, .light .dark .btn-outline-primary.active, .btn-outline-primary.active.dark {
     border-color: #998B7A;

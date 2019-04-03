@@ -6,6 +6,19 @@
 nav.sticky-top.fixed-top:not(.show-menu) .bg-wrap, nav.fixed-top.sticky-top:not(.show-menu) .bg-wrap{
     opacity: 1 !important;
 }
+#nav-logo-menu-btn{
+    position: fixed;
+}
+.scroll-up{
+    top:-100px;
+    -webkit-transition: all 500ms; /* For Safari 3.1 to 6.0 */
+    transition: all 500ms;
+}
+.scroll-down{
+    top: 0px;
+    -webkit-transition: all 500ms; /* For Safari 3.1 to 6.0 */
+    transition: all 500ms;
+}
 #nav-logo-menu-btn .bg-wrap {
     background: #ffffff;
     border-bottom: 1px solid #01aef0;
@@ -47,5 +60,14 @@ nav.sticky-top.fixed-top:not(.show-menu) .bg-wrap, nav.fixed-top.sticky-top:not(
     background: #fdf3e0;
 }
 #footer-logo-text-social-2 .bg-wrap {
-    background: #52638f;
+    background: #3d7eb8;
+}
+
+.bang-gia {
+    border-collapse: collapse;
+}
+
+.bang-gia, .bang-gia th, .bang-gia td {
+    padding: 0.5rem;
+    border: 1px solid black;
 }
