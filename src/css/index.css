@@ -1,0 +1,51 @@
+@media(min-width: 992px){
+    nav.fixed-top:not(.show-menu) .bg-wrap{
+        opacity: 0 !important;
+    }
+}
+nav.sticky-top.fixed-top:not(.show-menu) .bg-wrap, nav.fixed-top.sticky-top:not(.show-menu) .bg-wrap{
+    opacity: 1 !important;
+}
+#nav-logo-menu-btn .bg-wrap {
+    background: #ffffff;
+    border-bottom: 1px solid #01aef0;
+}#header-text-2 .bg {
+     background-image: url('../img/bannertop.png');
+     background-repeat: no-repeat;
+     background-position: center bottom;
+     background-size: cover;
+     opacity:1;
+ }
+#desc-halfbg-text-5 .bg-wrap {
+    background: #f0f0f0;
+}
+#benefits-2col .bg-wrap {
+    background: #fdf3e0;
+}
+#benefits-2col .bg {
+    opacity: 0.07;
+    background-image: url('https://slimweb.vn/site/khoahoctreem/images/135/bg2ndkhmin.png');
+}#action-img-text .bg-wrap {
+     background: #d6f1be;
+ }
+#benefits-2col--0 .bg {
+    background-image: url('https://slimweb.vn/site/khoahoctreem/images/135/bg2ndkhmin.png');
+    opacity: 0.07;
+}
+#benefits-2col--0 .bg-wrap {
+    background: #fbf6f0;
+}#testimonial-carousel-2 .bg-wrap {
+ }
+
+
+
+#desc-accordion-2 .bg {
+    opacity: 0.07;
+    background-image: url('https://slimweb.vn/site/khoahoctreem/images/135/bg2ndkhmin.png');
+}
+#desc-accordion-2 .bg-wrap {
+    background: #fdf3e0;
+}
+#footer-logo-text-social-2 .bg-wrap {
+    background: #52638f;
+}
