@@ -169,7 +169,7 @@ section.dark, footer.dark, header.dark {
 }
 .dark .btn-primary.light:hover, .light .btn-primary:hover, .dark .light .btn-primary:hover, .btn-primary.light:hover, .dark .btn-primary.light:active, .light .btn-primary:active, .dark .light .btn-primary:active, .btn-primary.light:active, .dark .btn-primary.active.light, .light .btn-primary.active, .dark .light .btn-primary.active, .btn-primary.active.light {
     color: #FFF;
-    background-color: rgba(238, 42, 123, 0.9);
+    background-color: #008ef0;
 }
 .light .btn-primary.dark:hover, .dark .btn-primary:hover, .light .dark .btn-primary:hover, .btn-primary.dark:hover, .light .btn-primary.dark:active, .dark .btn-primary:active, .light .dark .btn-primary:active, .btn-primary.dark:active, .light .btn-primary.active.dark, .dark .btn-primary.active, .light .dark .btn-primary.active, .btn-primary.active.dark {
     color: #FFF;
