@@ -23,23 +23,27 @@ nav.sticky-top.fixed-top:not(.show-menu) .bg-wrap, nav.fixed-top.sticky-top:not(
     background: #ffffff;
     border-bottom: 1px solid #01aef0;
 }#header-text-2 .bg {
-     background-image: url('../img/bannertop.png');
+     background-image: url('../img/bannertop.jpg');
      background-repeat: no-repeat;
      background-position: center bottom;
      background-size: cover;
      opacity:1;
  }
-#desc-halfbg-text-5 .bg-wrap {
-    background: #f0f0f0;
+#desc-halfbg-text-5 .bg {
+    background-image: url('../img/banner-khach-hang.png');
+    /*background-repeat: no-repeat;*/
+    background-position: center bottom;
+    background-size: cover;
+    opacity:1;
 }
 #benefits-2col .bg-wrap {
-    background: #fdf3e0;
+    background: #ffffff;
 }
 #benefits-2col .bg {
     opacity: 0.07;
     background-image: url('https://slimweb.vn/site/khoahoctreem/images/135/bg2ndkhmin.png');
 }#action-img-text .bg-wrap {
-     background: #d6f1be;
+     background: #01aef0;
  }
 #benefits-2col--0 .bg {
     background-image: url('https://slimweb.vn/site/khoahoctreem/images/135/bg2ndkhmin.png');
@@ -48,6 +52,7 @@ nav.sticky-top.fixed-top:not(.show-menu) .bg-wrap, nav.fixed-top.sticky-top:not(
 #benefits-2col--0 .bg-wrap {
     background: #fbf6f0;
 }#testimonial-carousel-2 .bg-wrap {
+    /*background: #01aef0;*/
  }
 
 
@@ -69,7 +74,9 @@ nav.sticky-top.fixed-top:not(.show-menu) .bg-wrap, nav.fixed-top.sticky-top:not(
 
 .bang-gia, .bang-gia th, .bang-gia td {
     padding: 0.5rem;
-    border: 1px solid black;
+    border: 1px solid #01aef0;
+    background: #ffffff;
+    color: #01aef0;
 }
 
 @media(max-width: 1230px){
@@ -81,6 +88,9 @@ nav.sticky-top.fixed-top:not(.show-menu) .bg-wrap, nav.fixed-top.sticky-top:not(
     }
 }
 @media(max-width: 800px){
+    .bg-label{
+        max-width: 300px !important;
+    }
     .lead{
         font-size: 100%;
     }
@@ -136,4 +146,30 @@ nav.sticky-top.fixed-top:not(.show-menu) .bg-wrap, nav.fixed-top.sticky-top:not(
     border: 1px solid #d58512;
     -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bg-label{
+    max-width: 400px;
+}
+
+.quote-blue{
+    color: #01aef0 !important;
+}
+.quote-white{
+    color: #ffffff !important;
+}
+.bg-blue{
+    background: #01aef0;
+}
+
+.bg-white{
+    background: #ffffff !important;
+}
+
+.quote-red{
+    color: red !important;
+}
+
+.lead-120{
+    font-size: 120%;
 }
